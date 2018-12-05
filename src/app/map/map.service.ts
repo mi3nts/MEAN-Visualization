@@ -10,7 +10,7 @@ import {catchError, tap} from 'rxjs/operators';
 
 
 export class MapService{
-    private sensorUrl="http://imd.utdallas.edu:8081/latest";
+    private sensorUrl="http://mintsdata.utdallas.edu:8081/latest";
     constructor(private http:HttpClient){
 
     }
